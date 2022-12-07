@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -lU $path | wc -l
+echo $path | tr ":" "\n" | wc l
